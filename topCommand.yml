@@ -1,5 +1,6 @@
-tasks:
-  - name: CPU load
+  tasks:
+    - name: CPU load
       shell: ls -lart
       register: cpu_result
-  - debug: msg="{{ cpu_result.stdout }}"
+    - debug: msg="{{ cpu_result.stdout }}"
+
