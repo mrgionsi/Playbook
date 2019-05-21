@@ -1,4 +1,4 @@
-- hosts: emaserver
+- hosts: googlecloud
   tasks:
     - name: CPU load
       shell: ls -lart
